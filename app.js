@@ -1,9 +1,4 @@
 var message = "hello world";
-
-document.getElementById('Test').onclick=function() {
-    alert("Yoo what's up man!");
-}
-
-function sayHello() {
-    alert(message);
+document.getElementById("Confirm").onclick=function() {
+    alert("Yoo what's up my "+document.getElementById("Csets").value+" men");
 }
